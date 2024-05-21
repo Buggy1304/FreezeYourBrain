@@ -1,6 +1,6 @@
 # "Freeze Your Brain" by Barrett Wilbert Weed & Ryan McCartan
 
-> Playlists more popular than albums 
+> Freeze your brain, suck on that straw, get lost in the pain
 
 ## What is this? 
 * A website to promote a single-song
