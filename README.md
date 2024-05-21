@@ -1,4 +1,4 @@
-# Single Song Promotion
+# "Freeze Your Brain" by Barrett Wilbert Weed & Ryan McCartan
 
 > Playlists more popular than albums 
 
@@ -13,4 +13,4 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* Your citations go here
+* [Freeze Your Brain by Barrett Wilbert Weed & Ryan McCartan](https://genius.com/Barrett-wilbert-weed-and-ryan-mccartan-freeze-your-brain-lyrics)
