@@ -1,30 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Metamorphous&display=swap');
+
+
 /* CSS Variables */
 :root {
-    /* my colors */
+/*  my colors  */
     --veronicablue:#847CE4;
     --darkgrey:#4B4E5C;
     --lightgrey:#ECF0F7;
-   
-    /* main UI color */
-    --plyr-color-main: darkgray;
+  --rustred:#350606;
+  --jdblue:#09034B;
+  
+  /* main UI color */
+    --plyr-color-main: var(--veronicablue);
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: var(--darkgrey);
     /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-audio-control-color: var(--lightgrey);
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: Inika, sans-serif;
     /* font size of player  */
     --plyr-font-size-time: 16px;
 
     /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
-    --plyr-audio-range-track-background: white;
-    --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-audio-control-color-hover:  var(--darkgrey);
+    --plyr-audio-progress-buffered-background: var(--darkgrey);
+    --plyr-audio-range-track-background: var(--lightgrey);
+    --plyr-tooltip-background:var(--lightgrey);
+    --plyr-tooltip-color:var(--darkgrey); 
     --plyr-control-icon-size: 16px;
+    
 }
-
 body {
     background: var(--darkgrey);}
 
@@ -37,10 +42,14 @@ main {
 }
 main h1 {
     text-align: center;
+  color:var(--rustred);
+  font-family:Metamorphous, serif;
 }
 
 main h2 {
     text-align: center;
+  color:var(--rustred);
+  font-family:Metamorphous, serif;
 }
 
 main img {
@@ -57,13 +66,15 @@ article {
     display: flex;
     gap: 1em;
     justify-content: center;
-   
+   border:10px black;
+  font-family:Inika, sans-serif;
 }
 
 article section {
     /* keep flex'd child same width */
     flex: 1;
     background: var(--veronicablue);
+  color:var(--jdblue);
 }
 
 /* Footer */
@@ -74,6 +85,7 @@ footer {
 /* Media Queries */
 @media (max-width: 40em) {
     main article {
-        flex-direction: column;
+        flex-direction:column;
+      
     }
 }
