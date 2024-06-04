@@ -21,15 +21,13 @@
 }
 
 body {
-    background: #4B4E5C;
-}
+    background: #4B4E5C;}
 
 /* Layout */
 main {
     /* Fixed width center align */
     max-width: 60em;
     margin-inline: auto;
-
     background:#ECF0F7;
 }
 
@@ -37,7 +35,8 @@ main img {
     /* Fit image to container */
     max-width: 50%;
     display: flex;
-    justify-content: center;
+    align-content: center;
+    
 }
 
 /* Primary Content */
@@ -46,11 +45,13 @@ article {
     display: flex;
     gap: 1em;
     justify-content: center;
+   
 }
 
 article section {
     /* keep flex'd child same width */
     flex: 1;
+    border: #ECF0F7 1px; 
 }
 
 /* Footer */
