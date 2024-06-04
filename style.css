@@ -81,6 +81,9 @@ article section {
 footer {
     text-align: center;
 }
+footer href{
+    font-family: Inika, sans-serif;
+}
 
 /* Media Queries */
 @media (max-width: 40em) {
