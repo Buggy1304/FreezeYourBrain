@@ -7,7 +7,7 @@
     
     /* print links */
     a[href]::after {
-        content: " " attr( href )
+        content: "  Goes to ->" attr( href )
     }
     
     /* paper sizing */

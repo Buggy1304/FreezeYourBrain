@@ -21,7 +21,7 @@
 }
 
 body {
-    background: gray;
+    background: #4B4E5C;
 }
 
 /* Layout */
@@ -30,13 +30,14 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background:#ECF0F7;
 }
 
 main img {
     /* Fit image to container */
-    max-width: 100%;
-    display: block;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Primary Content */
