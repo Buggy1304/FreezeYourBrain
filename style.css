@@ -1,5 +1,10 @@
 /* CSS Variables */
 :root {
+    /* my colors */
+    --veronicablue:#847CE4;
+    --darkgrey:#4B4E5C;
+    --lightgrey:#ECF0F7;
+   
     /* main UI color */
     --plyr-color-main: darkgray;
     /* audio controls background */
@@ -21,14 +26,21 @@
 }
 
 body {
-    background: #4B4E5C;}
+    background: var(--darkgrey);}
 
 /* Layout */
 main {
     /* Fixed width center align */
     max-width: 60em;
     margin-inline: auto;
-    background:#ECF0F7;
+    background:var(--lightgrey);
+}
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
 }
 
 main img {
@@ -51,7 +63,7 @@ article {
 article section {
     /* keep flex'd child same width */
     flex: 1;
-    border: #ECF0F7 1px; 
+    background: var(--veronicablue);
 }
 
 /* Footer */
